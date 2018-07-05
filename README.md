@@ -1,6 +1,6 @@
 # CSS Cool Tricks
 
-[View each example here, or click below for individual examples](https://lechien73.github.io/coolcsstricks)
+[View each example here, or click below for individual examples](https://lechien73.github.io/coolcsstricks/index.html)
 
 [A sample of cutout text](https://lechien73.github.io/coolcsstricks/cutout.html) using ```blend-mix-mode```
 
