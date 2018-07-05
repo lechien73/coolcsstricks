@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .hr1 {
+            overflow: visible;
+            border: 0;
+            height: 1px;
+            background-image: -webkit-linear-gradient(left, #F0F0F0, #8c8b8b);
+            text-align: right;
+        }
+
+        .hr1:after {
+            content: "\002708";
+            display: inline-block;
+            position: relative;
+            top: -.6em;
+            padding: 0 3px;
+            background: rgb(255, 255, 255);
+            color: #8c8b8b;
+            font-size: 1.5em;
+            z-index: 100;
+        }
+
+
+        .hr2 {
+            border: 0;
+            background-image: linear-gradient(to right, rgba(179, 179, 179, 0), rgba(179, 179, 179, 0.8), rgba(179, 179, 179, 0));
+            height: 1px;
+        }
+
+        .hr3 {
+            border: none;
+            border-top: medium dashed lightgrey;
+            color: grey;
+            overflow: visible;
+        }
+
+        .hr3:after {
+            background: white;
+            content: "\002702";
+            display: inline-block;
+            font-size: 1.7em;
+            left: 8%;
+            position: relative;
+            top: -.6em;
+        }
+    </style>
+</head>
+<hr class="hr1" />
+<br />
+<hr class="hr2" />
+<br />
+<hr class="hr3" />
+<br />
+
+<body>
+
+</body>
+
+</html>
