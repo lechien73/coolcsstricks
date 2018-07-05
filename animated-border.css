@@ -1,0 +1,14 @@
+.animated {
+    background: url('data:image/svg+xml,\
+    <svg xmlns="http://www.w3.org/2000/svg">\
+        <style>@keyframes border-animation {to {stroke-dashoffset: -15px;}}</style>\
+        <rect width="100%" height="100%" style="stroke: blue; stroke-width: 8px; fill: lemonchiffon; stroke-dasharray: 10px 5px; animation: border-animation 1s infinite linear;" />\
+    </svg>');
+    font-size: 3rem;
+    font-family: sans-serif;
+    height: 120px;
+    margin: 30px auto;
+    padding: 20px 0;
+    text-align: center;
+    width: 300px;
+}
